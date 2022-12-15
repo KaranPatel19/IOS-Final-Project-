@@ -13,6 +13,7 @@
 		7D28ADE42927155400A0F3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D28ADE22927155400A0F3DF /* Main.storyboard */; };
 		7D28ADE62927155600A0F3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D28ADE52927155600A0F3DF /* Assets.xcassets */; };
 		7D28ADE92927155600A0F3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D28ADE72927155600A0F3DF /* LaunchScreen.storyboard */; };
+		7D92EF18294BC0C70010BDE2 /* courseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92EF17294BC0C70010BDE2 /* courseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7D28ADE52927155600A0F3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D28ADE82927155600A0F3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D28ADEA2927155600A0F3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D92EF17294BC0C70010BDE2 /* courseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7D28ADE52927155600A0F3DF /* Assets.xcassets */,
 				7D28ADE72927155600A0F3DF /* LaunchScreen.storyboard */,
 				7D28ADEA2927155600A0F3DF /* Info.plist */,
+				7D92EF17294BC0C70010BDE2 /* courseTableViewCell.swift */,
 			);
 			path = "Cambrian Course selection";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D92EF18294BC0C70010BDE2 /* courseTableViewCell.swift in Sources */,
 				7D28ADE12927155400A0F3DF /* ViewController.swift in Sources */,
 				7D28ADDD2927155400A0F3DF /* AppDelegate.swift in Sources */,
 				7D28ADDF2927155400A0F3DF /* SceneDelegate.swift in Sources */,
