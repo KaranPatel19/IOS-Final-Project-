@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		7D28ADDD2927155400A0F3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ADDC2927155400A0F3DF /* AppDelegate.swift */; };
 		7D28ADDF2927155400A0F3DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ADDE2927155400A0F3DF /* SceneDelegate.swift */; };
-		7D28ADE12927155400A0F3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28ADE02927155400A0F3DF /* ViewController.swift */; };
 		7D28ADE42927155400A0F3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D28ADE22927155400A0F3DF /* Main.storyboard */; };
 		7D28ADE62927155600A0F3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D28ADE52927155600A0F3DF /* Assets.xcassets */; };
 		7D28ADE92927155600A0F3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D28ADE72927155600A0F3DF /* LaunchScreen.storyboard */; };
-		7D92EF18294BC0C70010BDE2 /* courseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92EF17294BC0C70010BDE2 /* courseTableViewCell.swift */; };
+		7D92EF2C294BDE1F0010BDE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92EF2B294BDE1F0010BDE2 /* ViewController.swift */; };
+		7D92EF2E294BE07F0010BDE2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D92EF2D294BE07F0010BDE2 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D28ADD92927155400A0F3DF /* Cambrian Course selection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cambrian Course selection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D28ADDC2927155400A0F3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D28ADDE2927155400A0F3DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7D28ADE02927155400A0F3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D28ADE32927155400A0F3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D28ADE52927155600A0F3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D28ADE82927155600A0F3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D28ADEA2927155600A0F3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D92EF17294BC0C70010BDE2 /* courseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseTableViewCell.swift; sourceTree = "<group>"; };
+		7D92EF2B294BDE1F0010BDE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7D92EF2D294BE07F0010BDE2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				7D28ADDC2927155400A0F3DF /* AppDelegate.swift */,
 				7D28ADDE2927155400A0F3DF /* SceneDelegate.swift */,
-				7D28ADE02927155400A0F3DF /* ViewController.swift */,
 				7D28ADE22927155400A0F3DF /* Main.storyboard */,
 				7D28ADE52927155600A0F3DF /* Assets.xcassets */,
 				7D28ADE72927155600A0F3DF /* LaunchScreen.storyboard */,
 				7D28ADEA2927155600A0F3DF /* Info.plist */,
-				7D92EF17294BC0C70010BDE2 /* courseTableViewCell.swift */,
+				7D92EF2B294BDE1F0010BDE2 /* ViewController.swift */,
+				7D92EF2D294BE07F0010BDE2 /* TableViewCell.swift */,
 			);
 			path = "Cambrian Course selection";
 			sourceTree = "<group>";
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D92EF18294BC0C70010BDE2 /* courseTableViewCell.swift in Sources */,
-				7D28ADE12927155400A0F3DF /* ViewController.swift in Sources */,
+				7D92EF2C294BDE1F0010BDE2 /* ViewController.swift in Sources */,
+				7D92EF2E294BE07F0010BDE2 /* TableViewCell.swift in Sources */,
 				7D28ADDD2927155400A0F3DF /* AppDelegate.swift in Sources */,
 				7D28ADDF2927155400A0F3DF /* SceneDelegate.swift in Sources */,
 			);
