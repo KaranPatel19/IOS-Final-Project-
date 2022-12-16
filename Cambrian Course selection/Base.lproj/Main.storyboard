@@ -1214,9 +1214,8 @@ We are excited to share our plan with our campus family and our partners, both i
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="09F-DU-3DI"/>
         <segue reference="if8-d1-A9e"/>
-        <segue reference="mYX-KS-B5O"/>
+        <segue reference="VoO-hs-P0p"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="book" catalog="system" width="128" height="99"/>

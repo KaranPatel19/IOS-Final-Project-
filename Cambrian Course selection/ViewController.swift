@@ -11,6 +11,8 @@ class ViewController : UIViewController, UITableViewDataSource{
     
     @IBOutlet weak var table: UITableView!
     
+    
+    // Adding toast message for adding buttons
     @IBAction func addbtn(_ sender: Any) {
         
         self.showToast(message: "New Course Added", font: .systemFont(ofSize: 12.0))
@@ -19,13 +21,20 @@ class ViewController : UIViewController, UITableViewDataSource{
         let title : String
     }
     
-    
+    // Inserting some basic courses to choose from
     let data: [course] = [
-        course(title: "IOS"),
-        course(title: "Android"),
-        course(title: "Web"),
-        course(title: "Database"),
-        course(title: "Bussiness"),
+        course(title: "English and Research Writing"),
+        course(title: "Muscular Skeletal System"),
+        course(title: "Mental Health"),
+        course(title: "Health Promotion and  Wellness"),
+        course(title: "App Devlopment for WEb"),
+        course(title: "App devlopment for Android"),
+        course(title: "App Devlopment for IOS"),
+        course(title: "Structured Data Management"),
+        course(title: "Foundations of B.A."),
+        course(title: "Introduction to Networking"),
+        course(title: "Introduction to Programming"),
+        course(title: "Windows Client OS"),
     
     ]
     
@@ -48,7 +57,7 @@ class ViewController : UIViewController, UITableViewDataSource{
     }
     
 
-
+        //toast message
     func showToast(message : String, font: UIFont) {
 
         let toastLabel = UILabel(frame: CGRect(x: self.view.frame.size.width/2 - 75, y: self.view.frame.size.height-100, width: 150, height: 35))
