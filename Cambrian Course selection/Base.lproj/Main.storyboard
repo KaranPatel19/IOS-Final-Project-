@@ -237,12 +237,18 @@
                                                 <color key="backgroundColor" red="0.91976243260000001" green="0.43131799770000001" blue="0.41210669999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="person.circle" catalog="system" title="Contact Us"/>
+                                                <connections>
+                                                    <segue destination="w75-Be-xXX" kind="show" id="tNY-i6-I7S"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9U-Ki-xW9">
                                                 <rect key="frame" x="195" y="0.0" width="195" height="246.66666666666666"/>
                                                 <color key="backgroundColor" red="0.91976243260000001" green="0.43131799770000001" blue="0.41210669999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="person.fill.viewfinder" catalog="system" title="My Profile"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="person.fill.viewfinder" catalog="system" title="Update Profile"/>
+                                                <connections>
+                                                    <segue destination="FEY-C2-cTV" kind="show" id="09F-DU-3DI"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -302,7 +308,7 @@
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9NO-I3-bzL">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="370"/>
-                                        <color key="backgroundColor" red="0.5" green="0.23467922620000001" blue="0.22531518179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.91976243260000001" green="0.43131799770000001" blue="0.41210669999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <string key="text">Since 1967, Cambrian College has been the leading post-secondary institution in Northern Ontario.Our College has a vibrant community of more than 11 000 learners, with over 4100 students in 80 full-time programs, and over 7000 students in almost 900 part-time courses and programs across three campus locations in northern Ontario: Sudbury, Espanola, and Little Current / Manitoulin Island.
 Discover the range of services and facilities we offer to support students and prepare them for success in today's competitive work places.
 Explore everything we have to offer and see Cambrian for yourself.https://cambriancollege.ca/</string>
@@ -343,11 +349,11 @@ We are excited to share our plan with our campus family and our partners, both i
             <objects>
                 <viewController id="FEY-C2-cTV" customClass="ViewController" customModule="Cambrian_Course_selection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aDg-If-RSv">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="fQ8-kn-6oe">
-                                <rect key="frame" x="30" y="297" width="330" height="250"/>
+                                <rect key="frame" x="30" y="128.66666666666663" width="330" height="530"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51H-cn-mJh">
                                         <rect key="frame" x="0.0" y="0.0" width="330" height="40"/>
@@ -368,8 +374,8 @@ We are excited to share our plan with our campus family and our partners, both i
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email ID/Mobile No." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dib-CE-arv">
-                                        <rect key="frame" x="0.0" y="140" width="330" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dib-CE-arv">
+                                        <rect key="frame" x="0.0" y="140.00000000000003" width="330" height="40"/>
                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                         <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                                         <constraints>
@@ -378,8 +384,48 @@ We are excited to share our plan with our campus family and our partners, both i
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Xp-hx-biM">
+                                        <rect key="frame" x="0.0" y="210.00000000000003" width="330" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="e9H-mJ-PpO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Program Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hCO-KQ-ALA">
+                                        <rect key="frame" x="0.0" y="280" width="330" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="MOt-ID-HHU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter New Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vV8-Fp-gCj">
+                                        <rect key="frame" x="0.0" y="350" width="330" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ifE-F4-67K"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-Enter Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="umV-BW-Fyh">
+                                        <rect key="frame" x="0.0" y="420" width="330" height="40"/>
+                                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                        <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="p5A-W0-D9W"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dxo-P1-xfe">
-                                        <rect key="frame" x="0.0" y="210" width="330" height="40"/>
+                                        <rect key="frame" x="0.0" y="490" width="330" height="40"/>
                                         <color key="backgroundColor" red="0.91976243260000001" green="0.43131799770000001" blue="0.41210669999999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="pOx-qi-PWk"/>
@@ -416,7 +462,7 @@ We are excited to share our plan with our campus family and our partners, both i
             <objects>
                 <viewController id="w75-Be-xXX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zU4-31-t4E">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="CdO-Fx-vd9">
@@ -1168,7 +1214,8 @@ We are excited to share our plan with our campus family and our partners, both i
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Frs-VX-i7h"/>
+        <segue reference="09F-DU-3DI"/>
+        <segue reference="if8-d1-A9e"/>
         <segue reference="mYX-KS-B5O"/>
     </inferredMetricsTieBreakers>
     <resources>
